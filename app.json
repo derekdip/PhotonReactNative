@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Losers Weepers",
+    "slug": "maze",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.derekpenaloza.maze"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.derekpenaloza.maze",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "430f1e34-c335-4985-90be-3e3cd0f57b5f"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "ios_app_id": "ca-app-pub-3663356470470158~4914744704",
+    "android_app_id": "ca-app-pub-3663356470470158~7505835758"
+  }
+}

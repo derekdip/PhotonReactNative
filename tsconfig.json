@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./src/types"],
+    "baseUrl": ".",
+    "paths": {
+      "@Components/*": ["./app/Components/*"],
+      "@Assets/*": ["./assets/*"],
+      "@NetworkObjects/*": ["./app/NetworkObjects/*"],
+      "@Screens/*": ["./app/Screens/*"],
+      "@ContextManager": ["./app/ContextManager"],
+      "@GameConfig": ["./app/GameConfig"],
+      "@PhotonClient": ["Photon/src/demo-loadbalancing/app"],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts" ],
+  "exclude": [
+    "node_modules"
+  ]
+}
