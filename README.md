@@ -31,7 +31,10 @@ To run this project locally, follow these steps:
    ```bash
    npm install
    ```
-4. **Start the Expo Development Server:**
+4. **Create a .env file that contains:**
+   PHOTON_APP_ID = photonAppID
+   PHOTON_APP_VERSION = photonAppVersion
+6. **Start the Expo Development Server:**
     ```bash
    npm run start
    ```
