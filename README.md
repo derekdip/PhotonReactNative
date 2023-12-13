@@ -4,9 +4,7 @@ This React Native Expo project leverages Photon's Realtime solution to introduce
 
 ## Overview
 
-Photon's Realtime Solution: Utilizes Photon Engine for efficient and scalable multiplayer networking, allowing players to interact in real-time within the game environment.
-Simple Movement Mechanics: Implements straightforward player movement mechanics for 2D gameplay.
-Cross-Platform Compatibility: Built with Expo, the project ensures cross-platform compatibility, allowing players to enjoy the game on both iOS and Android devices.
+This Expo React Native project integrates Photon Engine's Realtime Solution, providing a multiplayer networking framework for React Native Expo projects. Leveraging Photon's capabilities, players can engage in real-time interactions within the game environment. The project features straightforward 2D player movement mechanics, offering an intuitive and user-friendly experience. Built with Expo ensures cross-platform compatibility.
 
 ## Prerequisites
 1. Ensure you have Node.js and npm installed on your machine. You can download them from Node.js official website.
@@ -32,8 +30,8 @@ To run this project locally, follow these steps:
    npm install
    ```
 4. **Create a .env file that contains:**
-   PHOTON_APP_ID = photonAppID
-   PHOTON_APP_VERSION = photonAppVersion
+   <br>PHOTON_APP_ID = photonAppID
+   <br>PHOTON_APP_VERSION = photonAppVersion
 6. **Start the Expo Development Server:**
     ```bash
    npm run start
