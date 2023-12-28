@@ -37,14 +37,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.derekpenaloza.maze"
+      "bundleIdentifier": "change this"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.derekpenaloza.maze",
+      "package": "change this",
       "versionCode": 2
     },
     "web": {
@@ -52,12 +52,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "430f1e34-c335-4985-90be-3e3cd0f57b5f"
+        "projectId": "change this"
       }
     }
-  },
-  "react-native-google-mobile-ads": {
-    "ios_app_id": "ca-app-pub-3663356470470158~4914744704",
-    "android_app_id": "ca-app-pub-3663356470470158~7505835758"
   }
 }
